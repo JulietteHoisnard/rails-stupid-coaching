@@ -1,0 +1,15 @@
+<!-- app/views/pages/contact.html.erb -->
+<div class="container">
+  <div class="bordergrey">
+    <p><%= @question %></p>
+    <p class="italic">-- You --</p>
+  </div>
+    <br>
+  <div class="yellow bordergrey">
+    <p><%= @answer %></p>
+    <p class="italic">-- Your coach --</p>
+  </div>
+  <br>
+  <%= link_to "ask a new question", "http://localhost:3000/ask" %>
+</div>
+
